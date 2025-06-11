@@ -19,10 +19,10 @@ namespace SqlInjection
         public string getConnectionString()
         {
             SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
-            sqlConnectionStringBuilder.DataSource = "localhost";
+            sqlConnectionStringBuilder.DataSource = "192.168.162.200"; // "localhost";
             sqlConnectionStringBuilder.InitialCatalog = "ADONET";
             sqlConnectionStringBuilder.UserID = "sa";
-            sqlConnectionStringBuilder.Password = "P@ssword";
+            sqlConnectionStringBuilder.Password = "Teki1$2tou_"; // "P@ssword";
             return sqlConnectionStringBuilder.ConnectionString;
         }
 
